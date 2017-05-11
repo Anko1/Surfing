@@ -1,0 +1,18 @@
+body a{
+	color: black;
+}
+.navbar {
+	margin-top: 40px;
+}
+.navbar-nav {
+	margin-left: 180px;
+	text-transform: uppercase;
+}
+.logo {
+	padding: 0;
+}
+
+	.navbar-toggle {
+		border: none;
+		background-color: none !important;
+	}
