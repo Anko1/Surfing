@@ -7,12 +7,18 @@ body a{
 .navbar-nav {
 	margin-left: 180px;
 	text-transform: uppercase;
+	font-size: 9px;
+	font-weight: bold;
 }
 .logo {
 	padding: 0;
 }
-
-	.navbar-toggle {
-		border: none;
-		background-color: none !important;
-	}
+.carousel-control.left {
+	background-image: none;
+} 
+a.right.carousel-control {
+	background-image: none;
+}
+.item {
+	margin-left: 165px;
+}
