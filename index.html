@@ -54,68 +54,92 @@
 <!--Carousel -->
 <div class="container">
     <div class="row">
-        <div class="carousel-wrapper">
-            <div class="col-md-10 col-md-offset-2">
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img src="img/base.png" alt="...">
-                        </div>
-                        <div class="item">
-                            <img src="img/base.png" alt="...">
-                        </div>
-                        <div class="item">
-                            <img src="img/base.png" alt="...">
-                        </div>
-                        <div class="item">
-                            <img src="img/base.png" alt="...">
-                        </div>
-                        <div class="item">
-                            <img src="img/base.png" alt="...">
-                        </div>
+        <div class="col-md-10 col-md-offset-2">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="img/base.png" alt="...">
+                    </div>
+                    <div class="item">
+                        <img src="img/base.png" alt="...">
+                    </div>
+                    <div class="item">
+                        <img src="img/base.png" alt="...">
+                    </div>
+                    <div class="item">
+                        <img src="img/base.png" alt="...">
+                    </div>
+                    <div class="item">
+                        <img src="img/base.png" alt="...">
                     </div>
                 </div>
-            </div>
 
-            <div class="carousel-text col-md-5">
-                <span class="your">y o u r</span>
-                <h3 class="escape">Beautiful Escape</h3>
-                <p class="surf-txt">One of the greatest things about the sport of surfing is that you need only three
-                    things: your
-                    body,<br>
-                    a surfboard, and a wave.</p>
-            </div>
+                <div class="carousel-text">
+                    <span class="your">your</span>
+                    <h3 class="escape">Beautiful Escape</h3>
+                    <p class="surf-txt">
+                        One of the greatest things about the sport of surfing is that you need only three
+                        things: your
+                        body,<br>
+                        a surfboard, and a wave.</p>
+                </div>
 
-            <div class="c-controls">
-                <button onclick="c_move('prev');"
-                        class="glyphicon glyphicon-chevron-left c-control-left cntrl-style"></button>
-                <span id="c-info"></span>
-                <button onclick="c_move('next');"
-                        class="glyphicon glyphicon-chevron-right c-control-right cntrl-style"></button>
+                <div class="c-controls">
+                    <button onclick="c_move('prev');"
+                            class="glyphicon glyphicon-chevron-left c-control-left control-btn-style"></button>
+                    <span id="c-info"></span>
+                    <button onclick="c_move('next');"
+                            class="glyphicon glyphicon-chevron-right c-control-right control-btn-style"></button>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container">
-    <div class="row">
-        <div class="blockquote-wrapper">
-        <div class="col-md-6 col-md-offset-3">
-            <blockquote class="surf-quote">
-                Surfing is the most blissful experience you can have
-                on this planet, a taste of heaven.
-                <span class="John_McCarthy blockquote-footer">john maccarthy</span>
-                <br>
-                <br>
-                <br>
-                <br>
-                <img src="img/lineForQuote.png" alt="">
-            </blockquote>
-        </div>
+<section class="quote">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="blockquote-wrapper">
+                    <blockquote class="surf-quote">
+                        Surfing is the most blissful experience you can have
+                        on this planet, a taste of heaven.
+                    </blockquote>
+                    <span class="blockquote-footer">john maccarthy</span>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+</section>
+
+<section class="s-media">
+    <div class="container">
+        <div class="row">
+
+            <div class="m-video">
+                <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+            </div>
+
+            <div class="media1">
+            </div>
+
+            <div class="m-text">
+                <p>By better understanding the various aspects of surfing, you will improve faster and have more fun
+                    in the water.</p>
+                <span>READ MORE</span>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</section>
+
+<section class="s-boards" style="height: 500px">
+
+</section>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
