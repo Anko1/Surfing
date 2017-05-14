@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
     // $('.carousel').carousel({
     //     interval: NaN
     // });
@@ -12,14 +12,14 @@ $(function() {
 
 // for every slide in carousel, copy the next slide's item in the slide.
 // Do the same for the next, next item.
-    $('.multi-item-carousel .item').each(function(){
+    $('.multi-item-carousel .item').each(function () {
         var next = $(this).next();
         if (!next.length) {
             next = $(this).siblings(':first');
         }
         next.children(':first-child').clone().appendTo($(this));
 
-        if (next.next().length>0) {
+        if (next.next().length > 0) {
             next.next().children(':first-child').clone().appendTo($(this));
         } else {
             $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
@@ -41,4 +41,23 @@ function cal_carous() {
     var count = document.getElementsByClassName('item').length;
 
     $('#c-info').text(currentIndex + '/' + count);
+}
+
+window.onload = function () {
+    var video = document.getElementById("video");
+    var playButton = document.getElementById("play-btn");
+    playButton.addEventListener("click", function () {
+        video.play();
+        playButton.style.display = "none";
+    });
+
+    video.addEventListener("click", function () {
+        if (video.paused) {
+            video.play();
+            playButton.style.display = "none";
+        } else {
+            video.pause();
+            playButton.style.display = "block";
+        }
+    });
 }

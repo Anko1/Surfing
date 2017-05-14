@@ -1,0 +1,40 @@
+@media screen and (max-width: 767px) and (min-width: 480px) {
+    /*header*/
+    .navbar-toggle{
+        background-color: whitesmoke;
+    }
+    .navbar-toggle .icon-bar{
+        background-color: gray;
+    }
+
+    /*banner block*/
+    .carousel-text{
+        top: 40%;
+        left: 10%
+    }
+    .escape{
+        font-size: 32px;
+    }
+    .surf-txt{
+        display: none;
+    }
+
+    /*media block*/
+    .m-video{
+        height: 300px;
+        width: 90%;
+        float: none;
+        margin: 0 5%;
+    }
+    .media1{
+        display: none;
+    }
+    .m-text{
+        width: 60%;
+        margin: 20px 20% 0;
+        float: none;
+    }
+    .m-text p{
+        margin-bottom: 20px;
+    }
+}
