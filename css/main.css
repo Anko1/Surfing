@@ -481,7 +481,7 @@ video{
 }
 .st-text p{
 	margin-bottom: 50px;
-	font-size: 14px;
+	font-size: 16px;
 	font-family: "Poppins", serif;
 	color: rgba(97, 97, 97, 0.651);
 
@@ -496,11 +496,47 @@ video{
 	text-decoration: none;
 }
 .point-break {
-	margin-top: 130px;
+	margin-top: 100px;
 }
 .point-break-section-text {
 	margin-left: 40px;
 }
 .st-section {
 	margin-right: 10px;
+}
+.j-text::before {
+    content: url("../img/lineForQuote.png");
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 70px;
+
+}
+.j-text {
+    text-align: center;
+}
+.join-head {
+    font-family: Playfair Display, serif;
+    font-size: 42px;
+    font-weight: bold;
+}
+.join-p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    color: rgba(97, 97, 97, 0.651);
+    margin-top: 25px;
+}
+.j-form {
+    background-color: #ebebeb;
+    height: 50px;
+}
+.btn-default {
+    height: 50px;
+    background-image: url("../img/button.png");
+    width: 50px;
+    margin-bottom: 10px;
+    color: white;
+}
+.btn {
+    font-size: 20px;
 }
