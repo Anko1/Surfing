@@ -95,6 +95,10 @@ body a:hover{
 	line-height: 1.714;
 	/*text-align: left;*/
 }
+.text-add {
+    font-family: "League Spartan", serif;
+    letter-spacing: 5px;
+}
 
 .blockquote-wrapper {
 	margin-top: 60px;
@@ -223,6 +227,15 @@ video {
 .i-price::after {
 	content: 'buy';
 	display: block;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-family: "League Spartan", serif;
+    letter-spacing: 5px;
+    color: black;
+}
+.s-board-name {
+    font-family: "Playfair Display Regular", serif;
+    font-size: 19px;
 }
 
 .multi-item-carousel .carousel-inner .active.left {
@@ -332,12 +345,10 @@ body a {
 
 .your {
 	font-size: 9px;
-	font-family: "League Spartan", serif;
 	color: rgba(93, 168, 239, 0.902);
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: left;
-	letter-spacing: 2px;
 }
 
 .escape {
@@ -353,6 +364,7 @@ body a {
 	font-family: "Poppins", serif;
 	color: rgb(143, 143, 143);
 	line-height: 1.714;
+    margin-top: 15px;
 	/*text-align: left;*/
 }
 
@@ -362,14 +374,21 @@ body a {
 }
 
 .surf-quote {
+    font-family: "Playfair Display", serif;
 	border: none;
+    font-size: 22px;
 	/*padding: 0;*/
+}
+.blockquote-footer {
+    font-size: 9px;
+    text-transform: uppercase;
 }
 
 .blockquote-footer::after {
 	content: url("../img/lineForQuote.png");
 	display: block;
-	margin-top: 40px;
+    margin-top: 40px;
+
 }
 
 /*MEDIA*/
@@ -392,11 +411,19 @@ body a {
 
 .m-text p {
 	margin-bottom: 50px;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+    color: rgb(143, 143, 143);
+    line-height: 1.714;
 }
 
-.m-text span {
-	text-transform: uppercase;
-	border-bottom: 2px solid #8dc1f3;
+.m-text a {
+    text-transform: uppercase;
+    border-bottom: 2px solid #8dc1f3;
+    font-size: 9px;
+    font-family: "League Spartan", serif;
+    letter-spacing: 5px;
+    text-decoration: none;
 }
 
 .m-video {
@@ -433,7 +460,9 @@ video {
 }
 
 .boards-head {
-	font-size: 24px;
+    font-family: Playfair Display, serif;
+    font-size: 42px;
+    font-weight: bold;
 }
 
 .boards-head::before {
@@ -443,8 +472,15 @@ video {
 	color: rgba(93, 168, 239, 0.902);
 	font-weight: bold;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+    letter-spacing: 5px;
 	display: block;
+}
+.i-name {
+    font-family: "Poppins", serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(143, 143, 143);
+
 }
 
 .multi-item-carousel .carousel-inner > .item {
@@ -471,7 +507,9 @@ video {
 }
 
 .i-price {
-
+    font-family: "Poppins", serif;
+    color: #ce60a8;
+    font-size: 20px;
 }
 
 .i-price::before {
@@ -736,5 +774,34 @@ footer::before{
 }
 .f-social i{
 	padding: 0 15px;
+}
+.f-adress {
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: 70px;
+    line-height: 45px;
+    margin-bottom: 45px;
+}
+.foo-txt a {
+    text-transform: uppercase;
+    border-bottom: 2px solid #8dc1f3;
+    font-size: 9px;
+    font-family: "League Spartan", serif;
+    letter-spacing: 5px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.f-adress::before {
+    content: 'Our Camp';
+    font-family: "League Spartan", serif;
+    font-size: 9px;
+    color: #ebebeb;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 50px;
 }
 
