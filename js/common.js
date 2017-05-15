@@ -38,7 +38,8 @@ function c_move(dir) {
 }
 function cal_carous() {
     var currentIndex = $('div.active').index() + 1;
-    var count = document.getElementsByClassName('item').length;
+
+    var count = $('#carousel-example-generic .carousel-inner').find('.item').length;
 
     $('#c-info').text(currentIndex + '/' + count);
 }

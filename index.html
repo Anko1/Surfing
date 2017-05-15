@@ -8,6 +8,7 @@
           integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
           integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/media.css">
 
@@ -94,6 +95,15 @@
                     <button onclick="c_move('next');"
                             class="glyphicon glyphicon-chevron-right c-control-right control-btn-style"></button>
                 </div>
+
+                <span id="fsm">first surfing magazine</span>
+
+                <div id="social">
+                    <i class="fa fa-tumblr " aria-hidden="true"></i>
+                    <i class="fa fa-twitter " aria-hidden="true"></i>
+                    <i class="fa fa-vimeo " aria-hidden="true"></i>
+                </div>
+
             </div>
         </div>
     </div>
@@ -121,7 +131,8 @@
 
             <div class="m-video">
                 <video id="video">
-                    <source src="https://pixabay.com/en/videos/download/video-368_medium.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                    <source src="https://pixabay.com/en/videos/download/video-368_medium.mp4"
+                            type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
                 </video>
                 <button id="play-btn" class="glyphicon glyphicon-play"></button>
             </div>
@@ -238,11 +249,12 @@
         <div class="row surf-training">
             <div class="col-xs-12  col-md-4">
                 <div class="b-info st-section">
-                    <h4 class="sf-train-head">
+                    <h4 class="sf-train-head sf-01">
                         <span class="s-head">S</span>urf Training
                     </h4>
                     <div class="st-text">
-                        <p>By better understanding the various aspects of surfing. By better understanding the various aspects of surfing, you will improve faster and have more fun
+                        <p>By better understanding the various aspects of surfing. By better understanding the various
+                            aspects of surfing, you will improve faster and have more fun
                             in the water.</p>
                         <a href="#">read more</a>
                     </div>
@@ -256,33 +268,16 @@
             <div class="col-xs-12 col-md-5 col-md-offset-2">
                 <img src="img/PointBreakimg.png" alt="" class="b-img">
 
-                <section class="input-s">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 col-offset-3">
-                                <div class="j-text">
-                                    <h4 class="join-head">Join the Club</h4>
-                                    <p class="join-p">By better understanding the various aspects of surfing, you will improve faster
-                                        and have more fun in the water.</p>
-                                </div>
-                                <div class="input-group">
-                                    <input type="text" class="form-control j-form" placeholder="YOUR E-MAIL">
-                                    <span class="input-group-btn">
-                                    <button class="btn btn-default glyphicon glyphicon-menu-right" type="button"></button>
-                                </div>
-                            </div>
-                        </div>
-                </section>
-
 
             </div>
             <div class="col-xs-12 col-md-5">
                 <div class="b-info point-break-section-text">
-                    <h4 class="sf-train-head">
+                    <h4 class="sf-train-head sf-02">
                         <span class="s-head">P</span>oint Break
                     </h4>
                     <div class="st-text">
-                        <p>By better understanding the various aspects of By better understanding the various aspects of surfing, By better understanding the various aspects of
+                        <p>By better understanding the various aspects of By better understanding the various aspects of
+                            surfing, By better understanding the various aspects of
                             surfing, you will improve faster and have more fun in the water.</p>
                         <a href="#">read more</a>
                     </div>
@@ -290,15 +285,57 @@
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+
+<section class="input-s">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="j-text">
+                    <h4 class="join-head">Join the Club</h4>
+                    <p class="join-p">By better understanding the various aspects of surfing, you will improve faster
+                        and have more fun in the water.</p>
+                </div>
+                <div class="j-input">
+                    <button type="button">
+                        <span class="glyphicon glyphicon-menu-right"></span>
+                    </button>
+                    <input type="text" placeholder="YOUR E-MAIL">
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="last">
     <div class="container-fluid">
         <div class="row">
-            <img src="img/Addressbase.png" alt="">
+            <div class="col-md-6">
+                <img src="img/Addressbase.png" alt="">
+
+            </div>
+            <div class="col-md-6">
+
+            </div>
         </div>
     </div>
 </section>
+
+<footer>
+    <div class="f-menu">
+        <a>stories</a>
+        <a>events</a>
+        <a>places</a>
+        <a>bards</a>
+    </div>
+    <div class="f-social">
+        <i class="fa fa-tumblr fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-vimeo fa-2x" aria-hidden="true"></i>
+    </div>
+</footer>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

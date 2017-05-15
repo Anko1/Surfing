@@ -1,9 +1,18 @@
-body a{
+body {
+	background: url("../img/BackgroundImgMiddle.png") 0 1300px no-repeat,
+	url("../img/BackgroundImgBottom.png") 0 3150px no-repeat;
+}
+
+body a {
 	color: black;
+}
+body a:hover{
+	color: #74d1f8;
 }
 .navbar {
 	margin-top: 40px;
 }
+
 .navbar-nav {
 	/*margin-left: 180px;*/
 	text-transform: uppercase;
@@ -12,17 +21,20 @@ body a{
 	text-align: left;
 	font-family: "League Spartan", serif;
 }
+
 .logo {
 	padding: 0;
 }
+
 .carousel-wrapper {
 	position: relative;
 }
-.carousel{
+
+.carousel {
 	margin-left: 25px;
 }
 
-.c-controls{
+.c-controls {
 	position: absolute;
 	bottom: 0;
 	left: -215px;
@@ -34,11 +46,29 @@ body a{
 	color: #ececec;
 }
 
-
 .carousel-text {
 	position: absolute;
 	top: 200px;
 	left: -215px;
+}
+#fsm{
+	position: absolute;
+	right: -105px;
+	top: 0;
+	transform: rotate(270deg);
+	color: #ebebeb;
+}
+#social {
+	position: absolute;
+	right: -50px;
+	bottom: 0;
+	color: #ebebeb;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#social i {
+	padding-top: 25px;
 }
 .your {
 	font-size: 9px;
@@ -49,6 +79,7 @@ body a{
 	text-align: left;
 	letter-spacing: 2px;
 }
+
 .escape {
 	font-size: 62px;
 	font-family: "Playfair Display", serif;
@@ -56,6 +87,7 @@ body a{
 	font-weight: bold;
 	margin: 0;
 }
+
 .surf-txt {
 	font-size: 14px;
 	font-family: "Poppins", serif;
@@ -64,53 +96,60 @@ body a{
 	/*text-align: left;*/
 }
 
-.blockquote-wrapper{
+.blockquote-wrapper {
 	margin-top: 60px;
 	text-align: center;
 }
-.surf-quote{
+
+.surf-quote {
 	border: none;
 	/*padding: 0;*/
 }
-.blockquote-footer::after{
+
+.blockquote-footer::after {
 	content: url("../img/lineForQuote.png");
 	display: block;
 	margin-top: 40px;
 }
 
-
 /*MEDIA*/
-.s-media{
+.s-media {
 	margin-top: 60px;
 }
-.media1{
+
+.media1 {
 	width: 50%;
 	height: 350px;
 	background: url("../img/m_c_base2.png") no-repeat center;
 }
-.m-text{
+
+.m-text {
 	width: 30%;
 	margin-left: 10%;
 	margin-top: 50px;
 	float: left;
 }
-.m-text p{
+
+.m-text p {
 	margin-bottom: 50px;
 }
-.m-text a{
+
+.m-text a {
 	font-family: League Spartan, serif;
 	text-transform: uppercase;
 	border-bottom: 2px solid #8dc1f3;
 	text-decoration: none;
 }
-.m-video{
+
+.m-video {
 	/*background: url("../img/m_c_base.png") no-repeat center;*/
 	height: 500px;
 	width: 58.3%;
 	float: right;
 	position: relative;
 }
-.m-video button{
+
+.m-video button {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -121,21 +160,25 @@ body a{
 	color: white;
 	border: none;
 }
-video{
-	width:100%;
-	height:100%;
+
+video {
+	width: 100%;
+	height: 100%;
 }
+
 /*Boards*/
-.s-boards{
+.s-boards {
 	/*background: url("../img/BackgroundImgMiddle.png");*/
 	margin-top: 150px;
 	text-align: center;
 	position: relative;
 }
-.boards-head{
+
+.boards-head {
 	font-size: 24px;
 }
-.boards-head::before{
+
+.boards-head::before {
 	content: 'shop';
 	font-size: 9px;
 	font-family: "League Spartan", serif;
@@ -146,47 +189,58 @@ video{
 	display: block;
 }
 
-
 .multi-item-carousel .carousel-inner > .item {
 	-webkit-transition: 500ms ease-in-out left;
 	transition: 500ms ease-in-out left;
 }
-.multi-item-carousel .carousel-inner > .item .item-inner{
+
+.multi-item-carousel .carousel-inner > .item .item-inner {
 	position: relative;
 }
-.multi-item-carousel .carousel-inner > .item a{
+
+.multi-item-carousel .carousel-inner > .item a {
 	text-decoration: none;
 }
-.multi-item-carousel .carousel-inner > .item img{
+
+.multi-item-carousel .carousel-inner > .item img {
 	background: url("../img/Sufboardsbase.png") no-repeat bottom;
 }
-.multi-item-carousel .carousel-inner > .item .item-content{
+
+.multi-item-carousel .carousel-inner > .item .item-content {
 	position: absolute;
 	top: 60%;
 	right: 10%;
 }
-.i-price{
+
+.i-price {
 
 }
-.i-price::before{
+
+.i-price::before {
 	content: '$';
 }
-.i-price::after{
+
+.i-price::after {
 	content: 'buy';
 	display: block;
 }
+
 .multi-item-carousel .carousel-inner .active.left {
 	left: -33%;
 }
+
 .multi-item-carousel .carousel-inner .active.right {
 	left: 33%;
 }
+
 .multi-item-carousel .carousel-inner .next {
 	left: 33%;
 }
+
 .multi-item-carousel .carousel-inner .prev {
 	left: -33%;
 }
+
 /*@media all and (transform-3d), (-webkit-transform-3d) {*/
 /*.multi-item-carousel .carousel-inner > .item {*/
 /*-webkit-transition: 500ms ease-in-out left;*/
@@ -198,14 +252,15 @@ video{
 /*}*/
 /*}*/
 
-#b-c-left{
+#b-c-left {
 	background-image: none;
 	position: absolute;
 	left: 10px;
 	width: 20px;
 	color: #000;
 }
-#b-c-right{
+
+#b-c-right {
 	background-image: none;
 	position: absolute;
 	right: 10px;
@@ -214,22 +269,28 @@ video{
 }
 
 /*Blog*/
-.s-blog{
+.s-blog {
 	margin-top: 100px;
 }
-.b-info{
+
+.b-info {
 	height: 400px;
 	background-color: red;
 }
-.b-img{
+
+.b-img {
 	width: 100%;
 	height: auto;
-}body a{
-	 color: black;
- }
+}
+
+body a {
+	color: black;
+}
+
 .navbar {
 	margin-top: 40px;
 }
+
 .navbar-nav {
 	/*margin-left: 180px;*/
 	text-transform: uppercase;
@@ -238,17 +299,20 @@ video{
 	text-align: left;
 	font-family: "League Spartan", serif;
 }
+
 .logo {
 	padding: 0;
 }
+
 .carousel-wrapper {
 	position: relative;
 }
-.carousel{
+
+.carousel {
 	margin-left: 25px;
 }
 
-.c-controls{
+.c-controls {
 	position: absolute;
 	bottom: 0;
 	left: -215px;
@@ -260,12 +324,12 @@ video{
 	color: #ececec;
 }
 
-
 .carousel-text {
 	position: absolute;
 	top: 200px;
 	left: -215px;
 }
+
 .your {
 	font-size: 9px;
 	font-family: "League Spartan", serif;
@@ -275,6 +339,7 @@ video{
 	text-align: left;
 	letter-spacing: 2px;
 }
+
 .escape {
 	font-size: 62px;
 	font-family: "Playfair Display", serif;
@@ -282,6 +347,7 @@ video{
 	font-weight: bold;
 	margin: 0;
 }
+
 .surf-txt {
 	font-size: 14px;
 	font-family: "Poppins", serif;
@@ -290,51 +356,58 @@ video{
 	/*text-align: left;*/
 }
 
-.blockquote-wrapper{
+.blockquote-wrapper {
 	margin-top: 60px;
 	text-align: center;
 }
-.surf-quote{
+
+.surf-quote {
 	border: none;
 	/*padding: 0;*/
 }
-.blockquote-footer::after{
+
+.blockquote-footer::after {
 	content: url("../img/lineForQuote.png");
 	display: block;
 	margin-top: 40px;
 }
 
-
 /*MEDIA*/
-.s-media{
+.s-media {
 	margin-top: 60px;
 }
-.media1{
+
+.media1 {
 	width: 50%;
 	height: 350px;
 	background: url("../img/m_c_base2.png") no-repeat center;
 }
-.m-text{
+
+.m-text {
 	width: 30%;
 	margin-left: 10%;
 	margin-top: 50px;
 	float: left;
 }
-.m-text p{
+
+.m-text p {
 	margin-bottom: 50px;
 }
-.m-text span{
+
+.m-text span {
 	text-transform: uppercase;
 	border-bottom: 2px solid #8dc1f3;
 }
-.m-video{
+
+.m-video {
 	/*background: url("../img/m_c_base.png") no-repeat center;*/
 	height: 500px;
 	width: 58.3%;
 	float: right;
 	position: relative;
 }
-.m-video button{
+
+.m-video button {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -345,21 +418,25 @@ video{
 	color: white;
 	border: none;
 }
-video{
-	width:100%;
-	height:100%;
+
+video {
+	width: 100%;
+	height: 100%;
 }
+
 /*Boards*/
-.s-boards{
+.s-boards {
 	/*background: url("../img/BackgroundImgMiddle.png");*/
 	margin-top: 150px;
 	text-align: center;
 	position: relative;
 }
-.boards-head{
+
+.boards-head {
 	font-size: 24px;
 }
-.boards-head::before{
+
+.boards-head::before {
 	content: 'shop';
 	font-size: 9px;
 	font-family: "League Spartan", serif;
@@ -370,47 +447,58 @@ video{
 	display: block;
 }
 
-
 .multi-item-carousel .carousel-inner > .item {
 	-webkit-transition: 500ms ease-in-out left;
 	transition: 500ms ease-in-out left;
 }
-.multi-item-carousel .carousel-inner > .item .item-inner{
+
+.multi-item-carousel .carousel-inner > .item .item-inner {
 	position: relative;
 }
-.multi-item-carousel .carousel-inner > .item a{
+
+.multi-item-carousel .carousel-inner > .item a {
 	text-decoration: none;
 }
-.multi-item-carousel .carousel-inner > .item img{
+
+.multi-item-carousel .carousel-inner > .item img {
 	background: url("../img/Sufboardsbase.png") no-repeat bottom;
 }
-.multi-item-carousel .carousel-inner > .item .item-content{
+
+.multi-item-carousel .carousel-inner > .item .item-content {
 	position: absolute;
 	top: 60%;
 	right: 10%;
 }
-.i-price{
+
+.i-price {
 
 }
-.i-price::before{
+
+.i-price::before {
 	content: '$';
 }
-.i-price::after{
+
+.i-price::after {
 	content: 'buy';
 	display: block;
 }
+
 .multi-item-carousel .carousel-inner .active.left {
 	left: -33%;
 }
+
 .multi-item-carousel .carousel-inner .active.right {
 	left: 33%;
 }
+
 .multi-item-carousel .carousel-inner .next {
 	left: 33%;
 }
+
 .multi-item-carousel .carousel-inner .prev {
 	left: -33%;
 }
+
 /*@media all and (transform-3d), (-webkit-transform-3d) {*/
 /*.multi-item-carousel .carousel-inner > .item {*/
 /*-webkit-transition: 500ms ease-in-out left;*/
@@ -422,14 +510,15 @@ video{
 /*}*/
 /*}*/
 
-#b-c-left{
+#b-c-left {
 	background-image: none;
 	position: absolute;
 	left: 10px;
 	width: 20px;
 	color: #000;
 }
-#b-c-right{
+
+#b-c-right {
 	background-image: none;
 	position: absolute;
 	right: 10px;
@@ -438,15 +527,17 @@ video{
 }
 
 /*Blog*/
-.s-blog{
+.s-blog {
 	margin-top: 100px;
 }
-.b-info{
+
+.b-info {
 	height: 400px;
 	background-color: white;
 	margin-top: 15%;
 }
-.b-img{
+
+.b-img {
 	width: 100%;
 	height: auto;
 }
@@ -460,34 +551,60 @@ video{
 	letter-spacing: 5px;
 	text-decoration: none;
 }
+
 .b-text-div {
 	margin-top: 80px;
 }
+
 .surf-training {
 	margin-top: 50px;
 }
-.sf-train-head{
+
+.sf-train-head {
 	font-family: Playfair Display, serif;
 	font-size: 42px;
 	font-weight: bold;
+	position: relative;
+	z-index: 1;
+}
+
+.sf-01::before {
+	content: '01';
+	color: #ebebeb;
+	font-size: 180px;
+	position: absolute;
+	top: -120px;
+	left: 0;
+	z-index: -1;
+}
+.sf-02::before {
+	content: '02';
+	color: #ebebeb;
+	font-size: 180px;
+	position: absolute;
+	top: -120px;
+	left: 0;
+	z-index: -1;
 }
 .s-head {
 	border-bottom: 2px solid #8dc1f3;
 	padding-bottom: 10px;
 }
-.st-text{
+
+.st-text {
 	margin-top: 40px;
 	float: left;
 }
-.st-text p{
+
+.st-text p {
 	margin-bottom: 50px;
 	font-size: 16px;
 	font-family: "Poppins", serif;
 	color: rgba(97, 97, 97, 0.651);
 
-
 }
-.st-text a{
+
+.st-text a {
 	text-transform: uppercase;
 	border-bottom: 2px solid #8dc1f3;
 	font-size: 9px;
@@ -495,48 +612,129 @@ video{
 	letter-spacing: 5px;
 	text-decoration: none;
 }
+
 .point-break {
 	margin-top: 100px;
 }
+
 .point-break-section-text {
 	margin-left: 40px;
 }
+
 .st-section {
 	margin-right: 10px;
 }
+
 .j-text::before {
-    content: url("../img/lineForQuote.png");
-    display: block;
-    margin-top: 100px;
-    margin-bottom: 70px;
+	content: url("../img/lineForQuote.png");
+	display: block;
+	margin-top: 100px;
+	margin-bottom: 70px;
 
 }
+
 .j-text {
-    text-align: center;
+	text-align: center;
 }
+
 .join-head {
-    font-family: Playfair Display, serif;
-    font-size: 42px;
-    font-weight: bold;
+	font-family: Playfair Display, serif;
+	font-size: 42px;
+	font-weight: bold;
 }
+
 .join-p {
-    margin-bottom: 30px;
-    font-size: 16px;
-    font-family: "Poppins", serif;
-    color: rgba(97, 97, 97, 0.651);
-    margin-top: 25px;
+	margin-bottom: 30px;
+	font-size: 16px;
+	font-family: "Poppins", serif;
+	color: rgba(97, 97, 97, 0.651);
+	margin-top: 25px;
 }
+
 .j-form {
-    background-color: #ebebeb;
-    height: 50px;
+	background-color: #ebebeb;
+	height: 50px;
 }
-.btn-default {
-    height: 50px;
-    background-image: url("../img/button.png");
-    width: 50px;
-    margin-bottom: 10px;
-    color: white;
+
+/*.btn-default {*/
+/*height: 50px;*/
+/*background-image: url("../img/button.png");*/
+/*width: 50px;*/
+/*margin-bottom: 10px;*/
+/*color: white;*/
+/*}*/
+/*.btn {*/
+/*font-size: 20px;*/
+/*}*/
+.j-input button {
+	float: right;
+	width: 50px;
+	height: 50px;
+	background-color: #5da8ef;
+	border: none;
+	color: white;
 }
-.btn {
-    font-size: 20px;
+
+.j-input input {
+	width: calc(100% - 50px);
+	background-color: #ebebeb;
+	height: 50px;
+	/*font-size: 16px;*/
+	font-family: "Poppins", serif;
+	color: rgba(97, 97, 97, 0.651);
+	border: none;
+	color: black;
 }
+
+.j-input input::-webkit-input-placeholder {
+	padding-left: 5%;
+}
+
+.j-input input::-moz-placeholder {
+	text-indent: 5%;
+	padding-left: 5%;
+}
+
+.last {
+	margin-top: 100px;
+}
+
+.last img {
+	width: 100%;
+	height: auto;
+}
+
+
+/*footer*/
+footer{
+	margin-top: 40px;
+	margin-bottom: 100px;
+	text-align: center;
+
+}
+footer::before{
+	content: url("../img/logo.png");
+	display: block;
+	margin: 100px 0 60px 0;
+}
+.f-menu{
+	cursor: pointer;
+	text-transform: uppercase;
+	width: 50%;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.f-menu a{
+	text-decoration: none;
+}
+.f-social{
+	margin-top: 40px;
+	color: #ebebeb;
+}
+.f-social i{
+	padding: 0 15px;
+}
+
