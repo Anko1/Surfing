@@ -18,6 +18,13 @@
     .surf-txt{
         display: none;
     }
+    .carousel-control {
+        display: none;
+    }
+    #fsm,
+    .fa {
+        display: none;
+    }
 
     /*media block*/
     .m-video{
